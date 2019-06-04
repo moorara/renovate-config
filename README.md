@@ -3,6 +3,18 @@
 This repo contains all [Renovate](https://renovatebot.com) **Presets** for my personal GitHub repos.
 _Presets_ are sharable piece of configurations for Renovate that can be reused in `renovate.json` file in other repos.
 
+## How To Use
+
+You can reference the default preset in your `renovate.json` file as follows:
+
+```json
+{
+  "extends": [
+    "github>moorara/renovate-config"
+  ]
+}
+```
+
 ## Guides
 
   - https://renovatebot.com/docs/config-presets/#github-hosted-presets
