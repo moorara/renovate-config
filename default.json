@@ -3,7 +3,16 @@
     "config:base",
     "schedule:nonOfficeHours"
   ],
-  "postUpdateOptions": [
-    "gomodTidy"
+  "postUpdateOptions": [ "gomodTidy" ],
+  "packageRules": [
+    {
+      "packageNames": [ "^golang.org/x/" ],
+      "groupName": "Sub-repository Packages",
+      "schedule": [ "every weekend" ]
+    },
+    {
+      "packageNames": [ "github.com/aws/aws-sdk-go" ],
+      "schedule": [ "every weekend" ]
+    }
   ]
 }
