@@ -21,4 +21,5 @@ You can reference the default preset in your `renovate.json` file as follows:
   - https://renovatebot.com/docs/reconfigure-renovate/#reconfigure-via-pr
   - https://renovatebot.com/docs/presets-schedule
   - https://renovatebot.com/docs/configuration-options/#schedule
+  - https://renovatebot.com/docs/configuration-options/#packagerules
   - https://renovatebot.com/docs/configuration-options/#automerge
