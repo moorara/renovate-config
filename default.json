@@ -6,8 +6,8 @@
   "postUpdateOptions": [ "gomodTidy" ],
   "packageRules": [
     {
-      "packageNames": [ "^golang.org/x/" ],
-      "groupName": "Sub-repository Packages",
+      "packagePatterns": [ "^golang.org/x/" ],
+      "groupName": "sub-repository packages",
       "schedule": [ "every weekend" ]
     },
     {
