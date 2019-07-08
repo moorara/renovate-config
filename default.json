@@ -1,8 +1,8 @@
 {
   "extends": [
-    "config:base",
-    "schedule:nonOfficeHours"
+    "config:base"
   ],
+  "schedule": [ "after 11pm and before 7am" ]
   "postUpdateOptions": [ "gomodTidy" ],
   "packageRules": [
     {
