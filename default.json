@@ -3,6 +3,7 @@
     "config:base",
     "schedule:nonOfficeHours"
   ],
+  "timezone": "Canada/Eastern",
   "postUpdateOptions": [ "gomodTidy" ],
   "packageRules": [
     {
