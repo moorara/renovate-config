@@ -5,6 +5,11 @@
   ],
   "timezone": "America/Toronto",
   "postUpdateOptions": [ "gomodTidy" ],
+  "automerge": true,
+  "automergeType": "pr",
+  "major": {
+    "automerge": false
+  },
   "packageRules": [
     {
       "packagePatterns": [ "^golang.org/x/" ],
